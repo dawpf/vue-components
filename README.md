@@ -6,9 +6,9 @@ yarn add
 yarn serve
 ```
 
-## 说明
+## Button
 
-`src / components / button / index.vue` 中定义 `Button` 组件：
+### 组件页面：
 
 ```html
 <template>
@@ -63,7 +63,7 @@ export default {
 </style>
 ```
 
-在 `home.vue` 页面中使用
+### 使用：
 
 ```html
 <template>
@@ -106,11 +106,12 @@ export default {
 
 ```
 
-### 样式
+### 说明
 
-可以通过在 `home.vue` 中引入的 `Button` 组件添加 类名 来控制按钮的大小颜色等样式，也可以在 `Button` 总添加属性 `buttonstyle="background-color:green"` 来控制 `Button` 的样式
+1 **样式** 可以通过在 `home.vue` 中引入的 `Button` 组件添加 类名 来控制按钮的大小颜色等样式，也可以在 `Button` 总添加属性 `buttonstyle="background-color:green"` 来控制 `Button` 的样式
 
-### 方法
+2 **方法** 可以通过在 `home.vue` 中引入的 `Button` 组件添加事件 `click` 来定义点击按钮之后触发的事件
 
-可以通过在 `home.vue` 中引入的 `Button` 组件添加事件 `click` 来定义点击按钮之后触发的事件
+## Switch
 
+switch组件
