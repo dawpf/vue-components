@@ -1,5 +1,16 @@
 <template>
   <div class="switch">
-    <h1>这是switch组件</h1>
+    <slot></slot>
   </div>
 </template>
+
+<script>
+export default {
+  props: {}
+}
+</script>
+
+<style lang="less" scoped>
+.switch {
+}
+</style>
